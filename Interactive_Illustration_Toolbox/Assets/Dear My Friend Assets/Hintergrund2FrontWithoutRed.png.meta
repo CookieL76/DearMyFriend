@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 39d4e17a4e05dd8439de78817218df36
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1522143289312322665
+    second: Hintergrund2FrontWithoutRed_0
+  - first:
+      213: -1557586238811004092
+    second: Hintergrund2FrontWithoutRed_1
+  - first:
+      213: 7213839947847736015
+    second: Hintergrund2FrontWithoutRed_2
+  - first:
+      213: -3296190820343454074
+    second: Hintergrund2FrontWithoutRed_3
+  - first:
+      213: -2013595026028899540
+    second: Hintergrund2FrontWithoutRed_4
+  - first:
+      213: -73018594462433573
+    second: Hintergrund2FrontWithoutRed_5
+  - first:
+      213: -8162297894784558573
+    second: Hintergrund2FrontWithoutRed_6
+  - first:
+      213: -3330958973399828397
+    second: Hintergrund2FrontWithoutRed_7
+  - first:
+      213: 163726236285376839
+    second: Hintergrund2FrontWithoutRed_8
+  - first:
+      213: -3702846065900058663
+    second: Hintergrund2FrontWithoutRed_9
+  - first:
+      213: 2198671687377742457
+    second: Hintergrund2FrontWithoutRed_10
+  - first:
+      213: 7443133201886182174
+    second: Hintergrund2FrontWithoutRed_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hintergrund2FrontWithoutRed_0
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 2047
+        width: 66
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 964a4b8c14dbf1510800000000000000
+      internalID: 1522143289312322665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hintergrund2FrontWithoutRed_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 450
+        width: 258
+        height: 564
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44322a87197526ae0800000000000000
+      internalID: -1557586238811004092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hintergrund2FrontWithoutRed_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 459
+        height: 518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fca9cf54635bc1460800000000000000
+      internalID: 7213839947847736015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hintergrund2FrontWithoutRed_3
+      rect:
+        serializedVersion: 2
+        x: 2834
+        y: 0
+        width: 348
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6866681b9e39142d0800000000000000
+      internalID: -3296190820343454074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hintergrund2FrontWithoutRed_4
+      rect:
+        serializedVersion: 2
+        x: 3211
+        y: 0
+        width: 629
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c23dd080ef54e04e0800000000000000
+      internalID: -2013595026028899540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hintergrund2FrontWithoutRed_5
+      rect:
+        serializedVersion: 2
+        x: 3791
+        y: 311
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde7117a9f59cfef0800000000000000
+      internalID: -73018594462433573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hintergrund2FrontWithoutRed_6
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 0
+        width: 227
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31a92767f41b9be80800000000000000
+      internalID: -8162297894784558573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hintergrund2FrontWithoutRed_7
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 0
+        width: 114
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3587a1d367e06c1d0800000000000000
+      internalID: -3330958973399828397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hintergrund2FrontWithoutRed_8
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 0
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749933af42ca54200800000000000000
+      internalID: 163726236285376839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hintergrund2FrontWithoutRed_9
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 0
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d703102f19dc9cc0800000000000000
+      internalID: -3702846065900058663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hintergrund2FrontWithoutRed_10
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 0
+        width: 93
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97aebd72040438e10800000000000000
+      internalID: 2198671687377742457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hintergrund2FrontWithoutRed_11
+      rect:
+        serializedVersion: 2
+        x: 2828
+        y: 0
+        width: 91
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b775236325b4760800000000000000
+      internalID: 7443133201886182174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Hintergrund2FrontWithoutRed_0: 1522143289312322665
+      Hintergrund2FrontWithoutRed_1: -1557586238811004092
+      Hintergrund2FrontWithoutRed_10: 2198671687377742457
+      Hintergrund2FrontWithoutRed_11: 7443133201886182174
+      Hintergrund2FrontWithoutRed_2: 7213839947847736015
+      Hintergrund2FrontWithoutRed_3: -3296190820343454074
+      Hintergrund2FrontWithoutRed_4: -2013595026028899540
+      Hintergrund2FrontWithoutRed_5: -73018594462433573
+      Hintergrund2FrontWithoutRed_6: -8162297894784558573
+      Hintergrund2FrontWithoutRed_7: -3330958973399828397
+      Hintergrund2FrontWithoutRed_8: 163726236285376839
+      Hintergrund2FrontWithoutRed_9: -3702846065900058663
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
