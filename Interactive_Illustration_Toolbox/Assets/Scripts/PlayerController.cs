@@ -1,5 +1,5 @@
 using UnityEditor.Tilemaps;using UnityEngine;
-public class PlayerController : MonoBehaviour{    private float moveSpeed = 4f;    private bool isFacingRight = true;    private SpriteRenderer spriteRenderer;    private Animator animator;    void Awake()
+public class PlayerController : MonoBehaviour{    private float moveSpeed = 3.5f;    private bool isFacingRight = true;    private SpriteRenderer spriteRenderer;    private Animator animator;    void Awake()
     {
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         animator = GetComponent<Animator>();
