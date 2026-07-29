@@ -1,15 +1,35 @@
-using UnityEditor.Tilemaps;using UnityEngine;
-public class PlayerController : MonoBehaviour{    private float moveSpeed = 3.5f;    private bool isFacingRight = true;    private SpriteRenderer spriteRenderer;    private Animator animator;    void Awake()
+using UnityEditor.Tilemaps;
+using UnityEngine;
+
+public class PlayerController : MonoBehaviour
+{
+    private float moveSpeed = 3.5f;
+    private bool isFacingRight = true;
+
+    private SpriteRenderer spriteRenderer;
+    private Animator animator;
+
+    void Awake()
     {
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         animator = GetComponent<Animator>();
-    }
-    void Update()    {
+    }
+
+    void Update()
+    {
         movePlayer();
 
         float moveX = Input.GetAxis("Horizontal");
 
-        if (moveX > 0 && !isFacingRight)        {            Flip();        }        else if (moveX < 0 && isFacingRight)        {            Flip();        }    }
+        if (moveX > 0 && !isFacingRight)
+        {
+            Flip();
+        }
+        else if (moveX < 0 && isFacingRight)
+        {
+            Flip();
+        }
+    }
     void movePlayer()
     {
         float moveX = Input.GetAxis("Horizontal");
@@ -21,8 +41,13 @@ public class PlayerController : MonoBehaviour{    private float moveSpeed = 3.
         transform.Translate(move * moveSpeed * Time.deltaTime, Space.World);
     }
 
-    void Flip()    {        isFacingRight = !isFacingRight;
+    void Flip()
+    {
+        isFacingRight = !isFacingRight;
 
-        Vector3 scale = transform.localScale;        scale.x *= -1;        transform.localScale = scale;    }
+        Vector3 scale = transform.localScale;
+        scale.x *= -1;
+        transform.localScale = scale;
+    }
 
 }
