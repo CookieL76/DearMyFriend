@@ -3561,7 +3561,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &429699725
 Transform:
   m_ObjectHideFlags: 0
@@ -6082,7 +6082,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1055056282
 Transform:
   m_ObjectHideFlags: 0
@@ -20689,7 +20689,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 925bfdd4561e12441a34fa9da2cf2bd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ClickableItem
-  description: Oh, it's a bone! This gives me an idea...
+  description: Oh, it's a bone! This gives me an idea... I could use them to make
+    my new friend!
   title: Bone
 --- !u!114 &1865514988
 MonoBehaviour:
