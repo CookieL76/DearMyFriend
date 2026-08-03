@@ -8,13 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Toolbox.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Small lake.unity
     guid: 69d469a74bb6bef4696198bf5b669c03
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Tree.unity
     guid: 2a443e66a33dc6e45b1484e0d63d6989
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Winding Path.unity
     guid: ac6661450b95d7741a581cbfd6915666
   m_configObjects: {}
