@@ -1469,6 +1469,11 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!212 &171057884 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3139084769466668619, guid: c81b6973fced04215a86c6e44a1c1c31, type: 3}
+  m_PrefabInstance: {fileID: 275446566}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &174140767
 GameObject:
   m_ObjectHideFlags: 0
@@ -2030,7 +2035,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &210754937
 Transform:
   m_ObjectHideFlags: 0
@@ -2908,6 +2913,11 @@ MonoBehaviour:
   interactionEffectsOnTurnedOn:
   - {fileID: 278707976}
   interactionEffectsOnTurnedOff: []
+--- !u!212 &279955432 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3139084769466668619, guid: c81b6973fced04215a86c6e44a1c1c31, type: 3}
+  m_PrefabInstance: {fileID: 1254906634}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &284319439
 GameObject:
   m_ObjectHideFlags: 0
@@ -3958,7 +3968,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &429699725
 Transform:
   m_ObjectHideFlags: 0
@@ -4426,6 +4436,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArrowTrigger
   arrowCollider: {fileID: 83522111}
+  arrowSprite: {fileID: 1166921580}
 --- !u!61 &527842099
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4978,7 +4989,6 @@ GameObject:
   - component: {fileID: 621599789}
   - component: {fileID: 621599788}
   - component: {fileID: 621599787}
-  - component: {fileID: 621599786}
   - component: {fileID: 621599785}
   - component: {fileID: 621599784}
   m_Layer: 0
@@ -5033,21 +5043,6 @@ MonoBehaviour:
   delay: 0
   targetGameObject: {fileID: 210754936}
   active: 0
---- !u!114 &621599786
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 621599782}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed030ea2c4afff740b146c01d671eff8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteractionEffects.SetGameObjectActivation
-  delay: 0
-  targetGameObject: {fileID: 0}
-  active: 1
 --- !u!61 &621599787
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5124,7 +5119,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionEffectsOnClicked:
-  - {fileID: 621599786}
   - {fileID: 621599785}
   - {fileID: 621599784}
 --- !u!1 &646388353
@@ -5786,6 +5780,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArrowTrigger
   arrowCollider: {fileID: 174140772}
+  arrowSprite: {fileID: 937345024}
 --- !u!61 &771196953
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6067,6 +6062,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArrowTrigger
   arrowCollider: {fileID: 646633132}
+  arrowSprite: {fileID: 979997442}
 --- !u!61 &810329488
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6744,6 +6740,16 @@ Transform:
   - {fileID: 167010026}
   m_Father: {fileID: 1415872444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &937345024 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3139084769466668619, guid: c81b6973fced04215a86c6e44a1c1c31, type: 3}
+  m_PrefabInstance: {fileID: 1264193394}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &979997442 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3139084769466668619, guid: c81b6973fced04215a86c6e44a1c1c31, type: 3}
+  m_PrefabInstance: {fileID: 1336356482}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &989765089
 GameObject:
   m_ObjectHideFlags: 0
@@ -6790,6 +6796,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArrowTrigger
   arrowCollider: {fileID: 331585506}
+  arrowSprite: {fileID: 171057884}
 --- !u!61 &989765092
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7501,6 +7508,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArrowTrigger
   arrowCollider: {fileID: 621599787}
+  arrowSprite: {fileID: 279955432}
 --- !u!61 &1163201447
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7606,6 +7614,11 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!212 &1166921580 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3139084769466668619, guid: c81b6973fced04215a86c6e44a1c1c31, type: 3}
+  m_PrefabInstance: {fileID: 792291934}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1168669692
 GameObject:
   m_ObjectHideFlags: 0
@@ -10164,6 +10177,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArrowTrigger
   arrowCollider: {fileID: 162919142}
+  arrowSprite: {fileID: 1568007318}
 --- !u!61 &1468743871
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16214,6 +16228,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c92c60db25aa795499d6f31d9f361e5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCClick
+--- !u!212 &1568007318 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3139084769466668619, guid: c81b6973fced04215a86c6e44a1c1c31, type: 3}
+  m_PrefabInstance: {fileID: 1910508173}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1577925937
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22672,6 +22691,7 @@ GameObject:
   - component: {fileID: 1865514984}
   - component: {fileID: 1865514987}
   - component: {fileID: 1865514988}
+  - component: {fileID: 1865514989}
   m_Layer: 0
   m_Name: Bone3_0
   m_TagString: Untagged
@@ -22826,6 +22846,103 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f57456d724ed1947b13a596862e162c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CollectibleBone
+--- !u!82 &1865514989
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865514982}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1904993993
 GameObject:
   m_ObjectHideFlags: 0
