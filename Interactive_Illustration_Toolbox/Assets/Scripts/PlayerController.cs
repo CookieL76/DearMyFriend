@@ -11,10 +11,13 @@ public class PlayerController : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private Animator animator;
 
+    private AudioSource audioSource;
+
     void Awake()
     {
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -22,6 +25,15 @@ public class PlayerController : MonoBehaviour
         movePlayer();
 
         float moveX = Input.GetAxis("Horizontal");
+        if (moveX != 0)
+        {
+            if (!audioSource.isPlaying)
+                audioSource.Play();
+        }
+        else
+        {
+            audioSource.Stop();
+        }
         if (moveX > 0 && !isFacingRight)
         {
             Flip();

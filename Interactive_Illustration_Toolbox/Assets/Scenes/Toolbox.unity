@@ -382,9 +382,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 925bfdd4561e12441a34fa9da2cf2bd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ClickableItem
+  title: 
   description: My, what a curious pair... I sure hope they get along, or else it
     might be awkward.
-  title: 
 --- !u!4 &26296822 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7583878853774159566, guid: 04fa17b6fb9ae034ca4da8952d5896b4, type: 3}
@@ -630,9 +630,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 925bfdd4561e12441a34fa9da2cf2bd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ClickableItem
+  title: 
   description: What a nice place. If I had someone with me, we could watch the clouds
     together.
-  title: 
 --- !u!61 &78836360
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -706,6 +706,103 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!82 &78836362
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 78836355}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: b82c6c089ed305d448248d01d99d86dd, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &83522106
 GameObject:
   m_ObjectHideFlags: 0
@@ -1336,6 +1433,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: f2d8f4373e7fd2b4a95d105785d85161, type: 3}
       insertIndex: -1
       addedObject: {fileID: 167010032}
+    - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: f2d8f4373e7fd2b4a95d105785d85161, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 167010033}
   m_SourcePrefab: {fileID: 4843985084834002234, guid: f2d8f4373e7fd2b4a95d105785d85161, type: 3}
 --- !u!4 &167010026 stripped
 Transform:
@@ -1439,9 +1539,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 925bfdd4561e12441a34fa9da2cf2bd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ClickableItem
+  title: 
   description: This lake looks so peaceful. If I only had someone I could go for
     a swim with! I'm not a very good swimmer...
-  title: 
 --- !u!50 &167010032
 Rigidbody2D:
   serializedVersion: 5
@@ -1469,6 +1569,103 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!82 &167010033
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167010027}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: b82c6c089ed305d448248d01d99d86dd, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!212 &171057884 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 3139084769466668619, guid: c81b6973fced04215a86c6e44a1c1c31, type: 3}
@@ -2019,6 +2216,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: f2d8f4373e7fd2b4a95d105785d85161, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1263593555}
+    - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: f2d8f4373e7fd2b4a95d105785d85161, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1263593556}
   m_SourcePrefab: {fileID: 4843985084834002234, guid: f2d8f4373e7fd2b4a95d105785d85161, type: 3}
 --- !u!1 &210754936
 GameObject:
@@ -2266,6 +2466,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: f2d8f4373e7fd2b4a95d105785d85161, type: 3}
       insertIndex: -1
       addedObject: {fileID: 223407118}
+    - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: f2d8f4373e7fd2b4a95d105785d85161, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 223407119}
   m_SourcePrefab: {fileID: 4843985084834002234, guid: f2d8f4373e7fd2b4a95d105785d85161, type: 3}
 --- !u!4 &223407112 stripped
 Transform:
@@ -2323,9 +2526,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 925bfdd4561e12441a34fa9da2cf2bd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ClickableItem
+  title: 
   description: 'I feel rather lonely... I need to find a few things that I could
     use to make my very own new friend! '
-  title: 
 --- !u!61 &223407117
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2399,6 +2602,103 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!82 &223407119
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223407113}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: b82c6c089ed305d448248d01d99d86dd, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &231659433
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2579,6 +2879,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f57456d724ed1947b13a596862e162c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CollectibleBone
+  clickSound: {fileID: 8300000, guid: 1091ff7820eb4fd46b377fc61a0417d5, type: 3}
 --- !u!212 &246723628
 SpriteRenderer:
   serializedVersion: 2
@@ -2650,9 +2951,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 925bfdd4561e12441a34fa9da2cf2bd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ClickableItem
+  title: Bone
   description: And another bone. I sure wonder who keeps losing them, they appear
     rather important. Though, I am doll, I do not have bones.
-  title: Bone
 --- !u!1 &273191498
 GameObject:
   m_ObjectHideFlags: 0
@@ -3361,7 +3662,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -3968,7 +4269,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &429699725
 Transform:
   m_ObjectHideFlags: 0
@@ -4199,9 +4500,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 925bfdd4561e12441a34fa9da2cf2bd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ClickableItem
+  title: 
   description: What a delicious looking apple. I dare say, it would be perfect in
     an apple pie!
-  title: 
 --- !u!4 &517719651 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1660566940094398001, guid: c81b6973fced04215a86c6e44a1c1c31, type: 3}
@@ -5421,6 +5722,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: 2cc76d793bcb3e04db2d856d71e1c8ec, type: 3}
       insertIndex: -1
       addedObject: {fileID: 677429068}
+    - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: 2cc76d793bcb3e04db2d856d71e1c8ec, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 677429070}
   m_SourcePrefab: {fileID: 4843985084834002234, guid: 2cc76d793bcb3e04db2d856d71e1c8ec, type: 3}
 --- !u!4 &677429065 stripped
 Transform:
@@ -5512,6 +5816,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c92c60db25aa795499d6f31d9f361e5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCClick
+--- !u!114 &677429070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 677429066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 925bfdd4561e12441a34fa9da2cf2bd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClickableItem
+  title: 
+  description: Oh, hello there! Are you enjoying the cool water?
 --- !u!1 &689861911
 GameObject:
   m_ObjectHideFlags: 0
@@ -6511,8 +6829,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 925bfdd4561e12441a34fa9da2cf2bd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ClickableItem
-  description: It's another bone. This will come in handy for my plan.
   title: Bone
+  description: It's another bone. This will come in handy for my plan.
 --- !u!61 &886763916
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6630,6 +6948,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f57456d724ed1947b13a596862e162c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CollectibleBone
+  clickSound: {fileID: 8300000, guid: 1091ff7820eb4fd46b377fc61a0417d5, type: 3}
 --- !u!1 &914631088
 GameObject:
   m_ObjectHideFlags: 0
@@ -7366,9 +7685,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 925bfdd4561e12441a34fa9da2cf2bd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ClickableItem
+  title: 
   description: 'I remember a really yummy dish that contains mushrooms. I shouldn''t
     eat someone''s house, that''d be awfully rude. '
-  title: 
 --- !u!1 &1139868265
 GameObject:
   m_ObjectHideFlags: 0
@@ -8544,9 +8863,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 925bfdd4561e12441a34fa9da2cf2bd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ClickableItem
+  title: 
   description: How mysterious. This person over there looks like they're guarding
     something. I better leave them alone.
-  title: 
 --- !u!61 &1263593554
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8620,6 +8939,103 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!82 &1263593556
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263593549}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: b82c6c089ed305d448248d01d99d86dd, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &1264193394
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9170,6 +9586,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f57456d724ed1947b13a596862e162c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CollectibleBone
+  clickSound: {fileID: 8300000, guid: 1091ff7820eb4fd46b377fc61a0417d5, type: 3}
 --- !u!212 &1354386671
 SpriteRenderer:
   serializedVersion: 2
@@ -9241,9 +9658,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 925bfdd4561e12441a34fa9da2cf2bd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ClickableItem
+  title: Skull
   description: Oh this... this is quite concerning. I remember seeing this in pictures,
     but isn't it supposed to be inside the body?
-  title: Skull
 --- !u!1 &1356461913
 GameObject:
   m_ObjectHideFlags: 0
@@ -9991,9 +10408,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 925bfdd4561e12441a34fa9da2cf2bd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ClickableItem
+  title: 
   description: 'What...? Why is a button up there?I used to have a dress with red
     buttons, it was lovely. '
-  title: 
 --- !u!61 &1430439796
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16051,9 +16468,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 925bfdd4561e12441a34fa9da2cf2bd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ClickableItem
+  title: 
   description: 'What a lovely flower. I''m not surprised the ladybug likes it so
     much. '
-  title: 
 --- !u!1001 &1565848656
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16213,9 +16630,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 925bfdd4561e12441a34fa9da2cf2bd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ClickableItem
+  title: Berries
   description: What nice red berries. Though, I'm not sure if they are poisonous
     or not...
-  title: Berries
 --- !u!114 &1565848662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16456,6 +16873,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: f2d8f4373e7fd2b4a95d105785d85161, type: 3}
       insertIndex: -1
       addedObject: {fileID: 78836361}
+    - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: f2d8f4373e7fd2b4a95d105785d85161, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 78836362}
   m_SourcePrefab: {fileID: 4843985084834002234, guid: f2d8f4373e7fd2b4a95d105785d85161, type: 3}
 --- !u!1001 &1579717086
 PrefabInstance:
@@ -16592,9 +17012,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 925bfdd4561e12441a34fa9da2cf2bd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ClickableItem
+  title: 
   description: A nice, soft feather, fluttering in the wind. What bird did you escape
     from, hm?
-  title: 
 --- !u!1 &1581953832
 GameObject:
   m_ObjectHideFlags: 0
@@ -17431,6 +17851,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f57456d724ed1947b13a596862e162c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CollectibleBone
+  clickSound: {fileID: 8300000, guid: 1091ff7820eb4fd46b377fc61a0417d5, type: 3}
 --- !u!61 &1798467557
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17548,9 +17969,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 925bfdd4561e12441a34fa9da2cf2bd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ClickableItem
+  title: Bone
   description: Yet another bone! Is it all from the same creature? Or many different
     ones?
-  title: Bone
 --- !u!1 &1805077485
 GameObject:
   m_ObjectHideFlags: 0
@@ -22831,9 +23252,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 925bfdd4561e12441a34fa9da2cf2bd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ClickableItem
+  title: Bone
   description: Oh, it's a bone! This gives me an idea... I could use them to make
     my new friend!
-  title: Bone
 --- !u!114 &1865514988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22846,6 +23267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f57456d724ed1947b13a596862e162c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CollectibleBone
+  clickSound: {fileID: 8300000, guid: 1091ff7820eb4fd46b377fc61a0417d5, type: 3}
 --- !u!82 &1865514989
 AudioSource:
   m_ObjectHideFlags: 0
@@ -22853,11 +23275,11 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1865514982}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 1091ff7820eb4fd46b377fc61a0417d5, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -23320,7 +23742,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2201933658273823471, guid: dadfb3b95b95d463487d1eccfab81ef6, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2880855367384167871, guid: dadfb3b95b95d463487d1eccfab81ef6, type: 3}
       propertyPath: m_Sprite
@@ -24129,7 +24551,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -240.95338, y: 135.69006}
+  m_AnchoredPosition: {x: -271, y: 135.69006}
   m_SizeDelta: {x: 326.0933, y: 150.6198}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2098295515
@@ -24593,9 +25015,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 925bfdd4561e12441a34fa9da2cf2bd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ClickableItem
+  title: 
   description: So nice and shiny. But I do like strawberries more than these, they
     are safer.
-  title: 
 --- !u!114 &2115225004
 MonoBehaviour:
   m_ObjectHideFlags: 0

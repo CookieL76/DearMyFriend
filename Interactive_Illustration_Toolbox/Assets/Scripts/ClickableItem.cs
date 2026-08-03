@@ -2,14 +2,24 @@ using UnityEngine;
 
 public class ClickableItem : MonoBehaviour
 {
+    public string title;
+
     [TextArea(4, 8)]
     public string description;
 
-    public string title;
+    private AudioSource audioSource;
+
+    void Awake()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
 
     void OnMouseDown()
     {
-        Debug.Log("Instance: " + ItemInfoUI.Instance);
+        if (audioSource != null)
+        {
+            audioSource.Play();
+        }
 
         ItemInfoUI.Instance.ShowInfo(title, description);
     }
